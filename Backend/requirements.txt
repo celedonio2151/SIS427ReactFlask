@@ -1,0 +1,9 @@
+flask
+flask_mysqldb
+pymysql
+flask_cors
+
+
+
+# En caso de que no se puediera instalar flask-mysqldb
+#sudo apt-get install python-dev default-libmysqlclient-dev libssl-dev

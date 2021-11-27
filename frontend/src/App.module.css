@@ -1,0 +1,22 @@
+.navegacion_app {
+    /* max_width: 1800px;
+    margin: 0 auto; */
+}
+.body_app {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1800px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.fotos_app {
+    width: 30%;
+    margin: 15px 0px 0 25px;
+    box-sizing: border-box;
+}
+.switch_app {
+    /* background-color: gray; */
+    width: 70%;
+    box-sizing: border-box;
+    margin: 15px 25px;
+}

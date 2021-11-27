@@ -1,0 +1,75 @@
+.cabecera_tabla {
+    background-color: #868686;
+    /* position: relative; */
+    /* max_width: 1200px; */
+    padding: 15px 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+}
+.boton {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #008247;
+    padding: 10px;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+.titulo_central {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.table {
+    width: 100%;
+    padding: 15px 15px;
+    background-color: #ebebeb;
+    margin: 15px 0 0 0;
+    box-sizing: border-box;
+}
+.table thead tr {
+    background-color: gray;
+}
+.table thead tr th {
+    padding: 8px;
+}
+.table tbody tr td {
+    padding: 7px;
+    background-color: #d8d8d8;
+}
+.table tbody tr .operacion {
+    margin: 0;
+    padding: 0;
+}
+
+.operacion div {
+    /* background-color: red; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+}
+.editar {
+    background-color: #ffa514;
+    border: none;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    font-weight: bold;
+}
+.editar a {
+    text-decoration: none;
+    color: white;
+}
+.eliminar {
+    background-color: #ff0000;
+    border: none;
+    padding: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}

@@ -1,0 +1,67 @@
+.cabecera_tabla {
+    background-color: #868686;
+    width: 100%;
+    padding: 15px 15px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.boton {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #008247;
+    padding: 10px;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+.titulo_central {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.formulario {
+    background-color: #ebebeb;
+    margin: 15px 0 0 0;
+    padding: 15px 15px;
+}
+.group_form {
+    background-color: #d8d8d8;
+    padding: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.group_form label {
+    /*Centrar los labels*/
+    align-items: center;
+    display: flex;
+}
+.inputs {
+    width: 450px;
+    border: none;
+    padding: 10px;
+}
+.group_form_send {
+    background-color: #d8d8d8;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.boton_send {
+    background-color: #008247;
+    width: 45%;
+    padding: 10px;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+}
+.boton_reset {
+    background-color: #ffa514;
+    width: 45%;
+    padding: 10px;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+}

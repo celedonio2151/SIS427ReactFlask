@@ -1,0 +1,12 @@
+.footer {
+    background-color: #868686;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 25px;
+}
+.footer ul li {
+    list-style: none;
+    margin: 4px;
+}

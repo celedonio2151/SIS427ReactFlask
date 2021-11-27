@@ -1,0 +1,19 @@
+.aleatorio {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.cabecera_aleatorio {
+    width: 100%;
+    /* height: 40px; */
+    background-color: #868686;
+    padding: 25px 35px;
+    box-sizing: border-box;
+}
+.fotos_aleatorios {
+    width: 100%;
+    height: 400px;
+    background-color: #868686;
+    margin-top: 15px;
+}
